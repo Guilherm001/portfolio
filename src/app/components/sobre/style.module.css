@@ -1,0 +1,35 @@
+.containerFilho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    height: 100%;
+    margin: auto;
+}
+.Titulo{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: rgb(12, 119, 105);
+    text-align: center;
+    margin: 2rem;
+}
+.containerSobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+.containerImagem img{
+    width: 25vw;
+    height: 20vh;
+    object-fit: cover;
+}
+.containerTexto{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: rgb(63, 63, 65);
+}
