@@ -1,0 +1,24 @@
+.Topo{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    background-color: rgb(253, 253, 253);
+    justify-content: space-around;
+    padding: 20px 0;
+    z-index: 1000;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    text-decoration: none;  
+
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(53, 52, 52);
+    font-size: 20px;
+}

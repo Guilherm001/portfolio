@@ -1,0 +1,86 @@
+.capa{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.capa span{
+    font-weight: 600;
+    text-align: center;
+    color: rgb(233, 186, 34);
+}
+.capa h1{
+    font-weight: 900;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+}
+.capa p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 1rem;
+    color: rgb(255, 255, 255);
+}
+.foto {
+    width: 180px;
+    max-width: 40vw;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+.botoes{
+    display: flex;
+    gap: 2rem;
+}
+.botaoProjetos{
+    margin-top: 2rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(46, 26, 117);
+    background-color: rgb(233, 186, 34);
+    border: 2px solid transparent;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.botaoProjetos,
+.botaoSaibaMais{
+    transition: 
+        background-color 0.3s ease, 
+        color 0.3s ease, 
+        transform 0.2s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+.botaoProjetos:hover,
+.botaoSaibaMais:hover {
+    transform: scale(1.08);
+}
+.botaoProjetos:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(34, 23, 136);
+}
+
+.botaoSaibaMais{
+    margin-top: 2rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(233, 186, 34);
+    background-color: transparent;
+    border: 2px solid rgb(233, 186, 34);
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.botaoSaibaMais:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(34, 23, 136);
+    border: 2px solid rgb(255, 255, 255);
+}
