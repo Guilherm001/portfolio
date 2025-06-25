@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 80vw;
+    max-width: 70vw;
     height: 100%;
     margin: auto;
 }
@@ -20,10 +20,29 @@
     justify-content: center;
     gap: 6rem;
 }
-.containerImagem img{
-    width: 25vw;
-    height: 20vh;
-    object-fit: cover;
+.containerImagem {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 100%;
+}
+
+.gifEsquerda {
+    align-self: flex-start;
+    width: 120px;
+    max-width: 100%;
+}
+.gifCentro {
+    align-self: center;
+    width: 120px;
+    max-width: 100%;
+}
+
+.gifDireita {
+    align-self: flex-end;
+    width: 120px;
+    max-width: 100%;
 }
 .containerTexto{
     display: flex;

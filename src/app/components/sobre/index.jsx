@@ -9,7 +9,21 @@ export default function Sobre() {
         </div>
         <div className={Style.containerSobre}>
           <div className={Style.containerImagem}>
-            <img src="/images/teste.jpg" alt="Imagem de exemplo" />
+            <img
+              src="/images/robot.gif"
+              alt="Guilherme"
+              className={Style.gifCentro}
+            />
+            <img
+              src="/images/gif.gif"
+              alt="Imagem de exemplo"
+              className={Style.gifDireita}
+            />
+            <img
+              src="/images/bug.gif"
+              alt="Guilherme"
+              className={Style.gifEsquerda}
+            />
           </div>
           <div className={Style.containerTexto}>
             <p>
