@@ -1,0 +1,32 @@
+.footer{
+    background: linear-gradient(to bottom right, #269942, #2d9486, #0775f3);
+    height: 40vh;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 20px;
+}
+.assinatura{
+    background-color: #0f1f2c;
+    height: 6vh;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(184, 184, 184);
+    
+}

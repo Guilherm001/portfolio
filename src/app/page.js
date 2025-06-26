@@ -7,6 +7,7 @@ import Capa from "./components/Capa/index";
 import Sobre from "./components/sobre/index.jsx";
 import Habilidades from "./components/habilidades/index.jsx";
 import Projetos from "./components/Projetos/index.jsx";
+import Footer from "./components/Footer/index.jsx";
 export default function Home() {
   return (
     <main>
@@ -16,6 +17,7 @@ export default function Home() {
       <Sobre />
       <Habilidades />
       <Projetos />
+      <Footer />
     </main>
   );
 }

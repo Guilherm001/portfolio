@@ -105,6 +105,7 @@
 }
 .linkDemo:hover {
   background-color: rgb(42, 151, 124);
+  transform: scale(1.05);
 }
 .linkCodigo{
   text-decoration: none;
@@ -114,6 +115,9 @@
   border-radius: 5px;
   transition: background-color 0.3s ease;
   border: 2px solid rgb(33, 121, 99);
+}
+.linkCodigo:hover {
+  transform: scale(1.05);
 }
 .containerLinks a{
   gap: 10px;
