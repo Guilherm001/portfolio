@@ -16,6 +16,7 @@ export default function Card(props) {
         <p>{props.tecnologia1}</p>
         <p>{props.tecnologia2}</p>
         <p>{props.tecnologia3}</p>
+        <p>{props.tecnologia4}</p>
       </div>
       <nav className={Style.Links}>
         <a href="#">Demo</a>

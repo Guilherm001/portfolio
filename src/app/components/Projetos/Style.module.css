@@ -19,7 +19,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  max-width: 1200px; /* 3 cards de ~360px + gaps */
+  max-width: 1000px;
   margin: auto;
   padding: 2rem 0;
 }
@@ -28,14 +28,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 360px;      /* largura fixa para 3 por linha */
+  width: 300px;      /* largura fixa para 3 por linha */
   margin: 0;
   height: 630px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.20);
   border-radius: 10px;
   background: #fff;
   transition: transform 0.2s;
-  background-color: rgb(160, 163, 162);
+  border-radius: 10px;
+  
 }
 
 /* 2 cards por linha em telas médias */
@@ -60,4 +61,30 @@
     max-width: 100%;
     gap: 1rem;
   }
+}
+
+.Card:hover {
+  transform: translateY(-8px) scale(1.04);
+}
+.Imagem{
+  width: 100%;
+  height: 30%;
+  object-fit: cover;
+  background-color: rgb(100, 196, 81);
+  border-radius: 10px 10px 0 0;
+}
+.Titulo{
+  margin: 15px;
+}
+.Descricao {
+  margin: 15px;
+  color: #464545;
+  line-height: 1.3;
+}
+.Tecnologias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px;
 }
