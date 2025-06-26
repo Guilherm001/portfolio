@@ -40,6 +40,12 @@
 .contato a:hover {
     transform: scale(1.05);
 }
+.descricao{
+    font-size: 1.2rem;
+    color: #fff;
+    max-width: 1000px;
+    text-align: center;
+}
 .assinatura{
     background-color: #0f1f2c;
     height: 6vh;

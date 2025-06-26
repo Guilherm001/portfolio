@@ -14,10 +14,34 @@ export default function Footer() {
             trocar ideias, me envie uma mensagem!
           </div>
           <div className={Style.contato}>
-            <a href="">Email</a>
-            <a href="">Linkedin</a>
-            <a href="">Github</a>
-            <a href="">Whatsapp</a>
+            <a
+              href="mailto:guilherm.rodrigues@outlook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Email
+            </a>
+            <a
+              href="https://www.linkedin.com/in/guilherme-rodrigues-492814300/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Linkedin
+            </a>
+            <a
+              href="https://github.com/Guilherm001"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github
+            </a>
+            <a
+              href="https://wa.me/5511982135919"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Whatsapp
+            </a>
           </div>
         </div>
       </section>
