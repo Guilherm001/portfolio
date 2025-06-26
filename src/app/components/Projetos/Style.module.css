@@ -106,6 +106,7 @@
 .linkDemo:hover {
   background-color: rgb(42, 151, 124);
   transform: scale(1.05);
+    transition: transform 0.3s ease;
 }
 .linkCodigo{
   text-decoration: none;
@@ -118,6 +119,8 @@
 }
 .linkCodigo:hover {
   transform: scale(1.05);
+    transition: transform 0.3s ease;
+  
 }
 .containerLinks a{
   gap: 10px;

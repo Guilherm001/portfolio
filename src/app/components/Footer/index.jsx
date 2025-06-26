@@ -14,10 +14,10 @@ export default function Footer() {
             trocar ideias, me envie uma mensagem!
           </div>
           <div className={Style.contato}>
-            <a href="">email</a>
-            <a href="">linkedin</a>
-            <a href="">github</a>
-            <a href="">whatsapp</a>
+            <a href="">Email</a>
+            <a href="">Linkedin</a>
+            <a href="">Github</a>
+            <a href="">Whatsapp</a>
           </div>
         </div>
       </section>
