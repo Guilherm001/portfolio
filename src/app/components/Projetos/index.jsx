@@ -10,8 +10,8 @@ export default function Projetos() {
       <div className={Style.containerCards}>
         <Card
           imagem="/projeto1.png"
-          titulo="Projeto 1"
-          descricao="Descrição do Projeto 1"
+          titulo="Sistema de Gerenciamento de Conteúdo"
+          descricao="Um CMS customizado para blogs e portais de notícias, permitindo gerenciamento completo de posts, categorias e usuários. Inclui editor WYSIWYG e controle de acesso baseado em funções."
           tecnologia1=" React"
           tecnologia2=" JavaScript"
           tecnologia3=" CSS"
@@ -32,8 +32,8 @@ export default function Projetos() {
         />
         <Card
           imagem="/projeto1.png"
-          titulo="Projeto 1"
-          descricao="Descrição do Projeto 1"
+          titulo="Sistema de Gerenciamento de Conteúdo"
+          descricao="Um CMS customizado para blogs e portais de notícias, permitindo gerenciamento completo de posts, categorias e usuários. Inclui editor WYSIWYG e controle de acesso baseado em funções."
           tecnologia1=" React"
           tecnologia2=" JavaScript"
           tecnologia3=" CSS"
@@ -43,8 +43,30 @@ export default function Projetos() {
         />
         <Card
           imagem="/projeto1.png"
-          titulo="Projeto 1"
-          descricao="Descrição do Projeto 1"
+          titulo="Sistema de Gerenciamento de Conteúdo"
+          descricao="Um CMS customizado para blogs e portais de notícias, permitindo gerenciamento completo de posts, categorias e usuários. Inclui editor WYSIWYG e controle de acesso baseado em funções."
+          tecnologia1=" React"
+          tecnologia2=" JavaScript"
+          tecnologia3=" CSS"
+          tecnologia4=" Next.js"
+          link1=""
+          link2=""
+        />
+        <Card
+          imagem="/projeto1.png"
+          titulo="Sistema de Gerenciamento de Conteúdo"
+          descricao="Um CMS customizado para blogs e portais de notícias, permitindo gerenciamento completo de posts, categorias e usuários. Inclui editor WYSIWYG e controle de acesso baseado em funções."
+          tecnologia1=" React"
+          tecnologia2=" JavaScript"
+          tecnologia3=" CSS"
+          tecnologia4=" Next.js"
+          link1=""
+          link2=""
+        />
+        <Card
+          imagem="/projeto1.png"
+          titulo="Sistema de Gerenciamento de Conteúdo"
+          descricao="Um CMS customizado para blogs e portais de notícias, permitindo gerenciamento completo de posts, categorias e usuários. Inclui editor WYSIWYG e controle de acesso baseado em funções."
           tecnologia1=" React"
           tecnologia2=" JavaScript"
           tecnologia3=" CSS"
