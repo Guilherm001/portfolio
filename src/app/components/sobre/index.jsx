@@ -48,7 +48,7 @@ export default function Sobre() {
               Gosto de testar ideias, quebrar a cabeça e ver as coisas ganhando
               forma. Para mim, programar é resolver problemas de forma criativa,
               e é isso que me prende tanto à área. Estou sempre buscando
-              aprender mais e me superar a cada proje
+              aprender mais e me superar a cada projeto.
             </p>
             <p>
               Tudo o que eu preciso é de uma chance. Talvez eu ainda não seja o
