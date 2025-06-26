@@ -87,4 +87,35 @@
   justify-content: center;
   gap: 10px;
   margin: 15px;
+  color: rgb(55, 55, 216);
+  font-weight: bold;
+}
+.containerLinks {
+  display: flex;
+  gap: 20px;
+}
+.linkDemo{
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(33, 121, 99);
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;  
+  border: 2px solid rgb(33, 121, 99);
+}
+.linkDemo:hover {
+  background-color: rgb(42, 151, 124);
+}
+.linkCodigo{
+  text-decoration: none;
+  color: rgb(33, 121, 99);
+  background-color: transparent;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  border: 2px solid rgb(33, 121, 99);
+}
+.containerLinks a{
+  gap: 10px;
+  display: flex;
 }

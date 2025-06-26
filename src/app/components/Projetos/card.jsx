@@ -1,4 +1,5 @@
 import Style from "./Style.module.css";
+import { FiExternalLink, FiGithub } from "react-icons/fi";
 
 export default function Card(props) {
   return (
@@ -18,9 +19,19 @@ export default function Card(props) {
         <p>{props.tecnologia3}</p>
         <p>{props.tecnologia4}</p>
       </div>
-      <nav className={Style.Links}>
-        <a href="#">Demo</a>
-        <a href="#">Código</a>
+      <nav className={Style.containerLinks}>
+        <div>
+          <a className={Style.linkDemo} href="#">
+            <FiExternalLink />
+            Demo
+          </a>
+        </div>
+        <div>
+          <a className={Style.linkCodigo} href="#">
+            <FiGithub />
+            Código
+          </a>
+        </div>
       </nav>
     </div>
   );
