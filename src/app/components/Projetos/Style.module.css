@@ -1,31 +1,25 @@
-.title {
-  text-align: center;
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  color: #217963;
-}
-
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding-bottom: 2rem;
-}
-
-.card {
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-  width: 300px;
-  padding: 1.5rem;
+.Projetos{
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: transform 0.2s;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
 }
-.card:hover {
-  transform: translateY(-8px) scale(1.04);
+.containerTitulo{
+  text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: rgb(33, 121, 99);
+}
+.containerCards{
+  display: flex;
+  flex-wrap: wrap;          /* Permite que os cards quebrem para a linha debaixo */
+  justify-content: center;  /* Centraliza os cards */
+  gap: 2rem;                /* Espaço entre os cards */
+  max-width: 1000px;      
+  margin: auto;
+  padding: 2rem 0;
 }
