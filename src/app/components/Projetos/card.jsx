@@ -1,19 +1,21 @@
-export default function Card() {
+import Style from "./Style.module.css";
+
+export default function Card(props) {
   return (
     <div>
-      <div>
-        <img src="/projeto1.png" alt="Projeto 1" />
+      <div className={Style.Imagem}>
+        <h1>imagem</h1>
       </div>
       <div>
-        <h2>Projeto 1</h2>
+        <h2>{props.titulo}</h2>
       </div>
       <div>
-        <p>Descrição do Projeto 1</p>
+        <p>{props.descricao}</p>
       </div>
       <div>
-        <p>Tecnologia 1</p>
-        <p>Tecnologia 2</p>
-        <p>Tecnologia 3</p>
+        <p>{props.tecnologia1}</p>
+        <p>{props.tecnologia2}</p>
+        <p>{props.tecnologia3}</p>
       </div>
       <nav>
         <a href="#">Demo</a>

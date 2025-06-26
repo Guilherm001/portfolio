@@ -17,8 +17,8 @@ export default function Projetos() {
             tecnologia2=""
             tecnologia3=""
             tecnologia4=""
-            botao1=""
-            botao2=""
+            link1=""
+            link2=""
           />
         </div>
       </div>
