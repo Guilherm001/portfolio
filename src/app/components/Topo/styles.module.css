@@ -24,3 +24,44 @@
     color: rgb(53, 52, 52);
     font-size: 20px;
 }
+.hamburguer {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+  z-index: 1100;
+}
+
+.hamburguer span {
+  height: 4px;
+  width: 100%;
+  background: #217963;
+  margin: 4px 0;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+@media (max-width: 800px) {
+  .menu {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background: #fff;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+    padding: 20px 30px;
+    border-radius: 10px;
+    z-index: 1050;
+  }
+  .menu.open {
+    display: flex;
+  }
+  .hamburguer {
+    display: flex;
+  }
+}
