@@ -58,3 +58,32 @@
     flex-direction: column;
     color: rgb(184, 184, 184);    
 }
+
+@media (max-width: 600px) {
+  .footer {
+    padding: 10px;
+  }
+  .footerContainer {
+    gap: 24px;
+  }
+  .contato {
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+  }
+  .contato a {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .descricao {
+    font-size: 1rem;
+    padding: 0 8px;
+  }
+  .assinatura {
+    padding: 10px;
+    font-size: 0.95rem;
+  }
+}
