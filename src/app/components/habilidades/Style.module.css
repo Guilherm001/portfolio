@@ -1,9 +1,16 @@
+.titulopagina {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: rgb(33, 121, 99);
+}
 .containerpai {
     display: flex;
     flex-wrap: wrap;          /* Permite que os cards quebrem para a linha debaixo */
     justify-content: center;  /* Centraliza os cards */
     gap: 2rem;                /* Espaço entre os cards */
-    width: 100%;
+    max-width: 1000px;      
     margin: auto;
     padding: 2rem 0;
 }

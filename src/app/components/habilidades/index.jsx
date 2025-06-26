@@ -13,7 +13,7 @@ import Style from "./Style.module.css";
 export default function Habilidades(props) {
   return (
     <section className="habilidades">
-      <div>
+      <div className={Style.titulopagina}>
         <h2>Minhas Habilidades</h2>
       </div>
       <div className={Style.containerpai}>
