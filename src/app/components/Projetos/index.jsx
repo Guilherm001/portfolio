@@ -19,6 +19,39 @@ export default function Projetos() {
           link1=""
           link2=""
         />
+        <Card
+          imagem="/projeto1.png"
+          titulo="Projeto 1"
+          descricao="Descrição do Projeto 1"
+          tecnologia1=" React"
+          tecnologia2=" JavaScript"
+          tecnologia3=" CSS"
+          tecnologia4=" Next.js"
+          link1=""
+          link2=""
+        />
+        <Card
+          imagem="/projeto1.png"
+          titulo="Projeto 1"
+          descricao="Descrição do Projeto 1"
+          tecnologia1=" React"
+          tecnologia2=" JavaScript"
+          tecnologia3=" CSS"
+          tecnologia4=" Next.js"
+          link1=""
+          link2=""
+        />
+        <Card
+          imagem="/projeto1.png"
+          titulo="Projeto 1"
+          descricao="Descrição do Projeto 1"
+          tecnologia1=" React"
+          tecnologia2=" JavaScript"
+          tecnologia3=" CSS"
+          tecnologia4=" Next.js"
+          link1=""
+          link2=""
+        />
       </div>
     </section>
   );

@@ -14,12 +14,50 @@
     margin: 20px 0;
     color: rgb(33, 121, 99);
 }
-.containerCards{
+.containerCards {
   display: flex;
-  flex-wrap: wrap;          /* Permite que os cards quebrem para a linha debaixo */
-  justify-content: center;  /* Centraliza os cards */
-  gap: 2rem;                /* Espaço entre os cards */
-  max-width: 1000px;      
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1200px; /* 3 cards de ~360px + gaps */
   margin: auto;
   padding: 2rem 0;
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 360px;      /* largura fixa para 3 por linha */
+  margin: 0;
+  height: 630px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.20);
+  border-radius: 10px;
+  background: #fff;
+  transition: transform 0.2s;
+  background-color: rgb(160, 163, 162);
+}
+
+/* 2 cards por linha em telas médias */
+@media (max-width: 850px) {
+  .Card {
+    width: 48%;
+    min-width: 280px;
+    max-width: 100%;
+  }
+  .containerCards {
+    max-width: 800px;
+  }
+}
+
+/* 1 card por linha em telas pequenas */
+@media (max-width: 700px) {
+  .Card {
+    width: 100%;
+    min-width: 0;
+  }
+  .containerCards {
+    max-width: 100%;
+    gap: 1rem;
+  }
 }
