@@ -1,4 +1,14 @@
 import Card from "./card";
+import {
+  FiDatabase,
+  FiServer,
+  FiCloud,
+  FiCode,
+  FiGitBranch,
+  FiTool,
+} from "react-icons/fi";
+import { BsClipboardCheck, BsLayoutWtf } from "react-icons/bs";
+import Style from "./Style.module.css";
 
 export default function Habilidades(props) {
   return (
@@ -6,16 +16,52 @@ export default function Habilidades(props) {
       <div>
         <h2>Minhas Habilidades</h2>
       </div>
-      <div>
+      <div className={Style.containerpai}>
         <Card
-          imagem="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+          imagem={<FiCode />}
           titulo="Front-End"
           tecnologias="React, Next.js, JavaScript, TypeScript, HTML, CSS"
         />
         <Card
-          imagem="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-          titulo="Front-End"
-          tecnologias="React, Next.js, JavaScript, TypeScript, HTML, CSS"
+          imagem={<FiServer />}
+          titulo="Back-End"
+          tecnologias="Node.js (Express, NestJS), Python (Django, Flask), REST APIs, GraphQL, Microservices"
+        />
+
+        <Card
+          imagem={<FiDatabase />}
+          titulo="Bancos de Dados"
+          tecnologias="PostgreSQL, MongoDB, MySQL, Redis, Firebase Firestore, DynamoDB"
+        />
+
+        <Card
+          imagem={<FiCloud />}
+          titulo="Cloud & DevOps"
+          tecnologias="AWS, Docker, Kubernetes, Git, CI/CD, Azure, GCP"
+        />
+
+        <Card
+          imagem={<BsLayoutWtf />}
+          titulo="Design UI/UX"
+          tecnologias="Figma, Sketch, Adobe XD, Prototipagem, Wireframing"
+        />
+
+        <Card
+          imagem={<BsClipboardCheck />}
+          titulo="Testes"
+          tecnologias="Jest, React Testing Library, Cypress, Pytest, Mocha, Chai"
+        />
+
+        <Card
+          imagem={<FiGitBranch />}
+          titulo="Controle de Versão"
+          tecnologias="Git, GitHub"
+        />
+
+        <Card
+          imagem={<FiTool />}
+          titulo="Ferramentas"
+          tecnologias="Webpack, Babel, npm, Yarn, Postman, VS Code"
         />
       </div>
     </section>
