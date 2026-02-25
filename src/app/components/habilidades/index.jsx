@@ -25,19 +25,19 @@ export default function Habilidades(props) {
         <Card
           imagem={<FiServer />}
           titulo="Back-End"
-          tecnologias="Node.js (Express, NestJS), Python (Django, Flask), REST APIs, GraphQL, Microservices"
+          tecnologias="Node.js (Express, NestJS), REST APIs, Microservices"
         />
 
         <Card
           imagem={<FiDatabase />}
           titulo="Bancos de Dados"
-          tecnologias="PostgreSQL, MongoDB, MySQL, Redis, Firebase Firestore, DynamoDB"
+          tecnologias="PostgreSQL, MongoDB, MySQL, Redis"
         />
 
         <Card
           imagem={<FiCloud />}
           titulo="Cloud & DevOps"
-          tecnologias="AWS, Docker, Kubernetes, Git, CI/CD, Azure, GCP"
+          tecnologias="Supabase, Git"
         />
 
         <Card
@@ -61,7 +61,7 @@ export default function Habilidades(props) {
         <Card
           imagem={<FiTool />}
           titulo="Ferramentas"
-          tecnologias="Webpack, Babel, npm, Yarn, Postman, VS Code"
+          tecnologias="npm, Yarn, Postman, VS Code"
         />
       </div>
     </section>
