@@ -31,7 +31,7 @@ export default function Habilidades(props) {
         <Card
           imagem={<FiDatabase />}
           titulo="Bancos de Dados"
-          tecnologias="PostgreSQL, MongoDB, MySQL, Redis"
+          tecnologias="PostgreSQL, MongoDB, MySQL"
         />
 
         <Card
@@ -49,7 +49,7 @@ export default function Habilidades(props) {
         <Card
           imagem={<BsClipboardCheck />}
           titulo="Testes"
-          tecnologias="Jest, React Testing Library, Cypress, Pytest, Mocha, Chai"
+          tecnologias="Jest, React Testing Library, Chai"
         />
 
         <Card

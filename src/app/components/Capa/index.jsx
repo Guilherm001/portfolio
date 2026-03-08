@@ -7,7 +7,7 @@ export default function Capa() {
       <h1>
         Olá, eu sou o <span>Guilherme</span>.
       </h1>
-      <p>Desenvolvedor Full-Stack sempre em busca de experiencias incríveis.</p>
+      <p>Desenvolvedor Full-Stack, sempre em busca de experiencias incríveis.</p>
       <div className={styles.botoes}>
         <button className={styles.botaoProjetos}>Meus Projetos</button>
         <button className={styles.botaoSaibaMais}>Saiba Mais</button>
